@@ -13,3 +13,6 @@ h1 {
   font-size: 1rem;
   text-decoration: underline;
 }
+    border-style: dashed;
+    border-color: black;
+    color: rgb(124, 76, 89);
