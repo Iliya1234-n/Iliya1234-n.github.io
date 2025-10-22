@@ -1,7 +1,7 @@
 body {
 font-family: Verdana, sans-serif;
 margin: 0;
-background-color: #dfffe0
+background-color: #dfffe0; /*added a semi collen*/
 color: #083b0a;
 }
 .topbar {
@@ -27,7 +27,7 @@ position: relative;
 
 position: relative;
 background-color: a5f0a0;
-padding: 25pz;
+padding: 25px; /*changed it from pc to px*/
 border-radius: 8px;
 margin-top: 25px;
 }
