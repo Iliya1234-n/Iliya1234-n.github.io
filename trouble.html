@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Frogs of the Rainforest</title>
-<link rel="stylesheet" href="frogscss">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frogs of the Rainforest</title>
+  <link rel="stylesheet" href="frogscss">
 </head>
 <body>
-<div id=topbar>
-<h1>🐸 Frogs of the Rainforest</h1>
-<h2> Iliya</h2> <!--added h2 closing tag-->
-<div> <!--changed it from a closing tag to an opening tag--> 
-<div class="panel">
-<h2>Meet the Frogs</h2> <!--changed to an h2 closing tag-->
-<p>Frogs are incredible amphibians that live on every continent except Antarctica. Their
-smooth, moist skin helps them breathe through it.</p>
-</div>
-<div floss="panel">
-<h2>Life Cycle</h2>
-<p>Frogs begin life as eggs in water, hatch into tadpoles, and grow legs as they transform
-into adult frogs. This is called metamorphosis.</p>
-<div id="pond">
-<p>Here’s a “pond” — the parent container.</p>
-<div id="tadpole">
-<p>I'm positioned <strong>absolutely</strong> within my parent!</p> <!--changed the end tag from strange to strong-->
-</div>
-<div> <!--changed from a closing tag to an opening tag-->
-<div class="panel">
-<h2>Behavior</h2> <!--the closing tag was h3 but I changed it to h2-->
-<p>Many frogs are nocturnal. They use sticky tongues to catch insects and call loudly to
-attract mates.</p>
-<div id="fun-fact">
-<p><strong>Fun Fact: Some frogs can leap more than 20 times their body length!</p>
-
-</div>
-<div> <!--changed from a closing tag to an opening tag-->
-<div id="footer">
-<p>© 2025 Frogs of the Rainforest</p>
-</div>
+  <div id=topbar>
+    <h1>🐸 Frogs of the Rainforest</h1>
+    <h2> Iliya</h2> <!-- added closing h2 tag so Iliya shows as its own heading and looks correct on the page -->
+    <div> <!-- changed from a closing div to an opening div so the stuff below shows on the website -->
+    <div class="panel">
+      <h2>Meet the Frogs</h2> <!-- fixed closing tag so heading shows right and spacing looks better -->
+      <p>Frogs are incredible amphibians that live on every continent except Antarctica. Their
+      smooth, moist skin helps them breathe through it.</p>
+    </div>
+    <div floss="panel"> <!-- changed to class="panel" so CSS styles work and this section looks like the others -->
+      <h2>Life Cycle</h2>
+      <p>Frogs begin life as eggs in water, hatch into tadpoles, and grow legs as they transform
+      into adult frogs. This is called metamorphosis.</p>
+      <div id="pond">
+        <p>Here’s a “pond” — the parent container.</p>
+        <div id="tadpole">
+          <p>I'm positioned <strong>absolutely</strong> within my parent!</p> <!-- fixed strong tag so absolutely is bold and stands out -->
+        </div>
+        <div> <!-- changed from a closing div to an opening div so the next panel shows up on the website -->
+        <div class="panel">
+          <h2>Behavior</h2> <!-- changed h3 to h2 so heading looks like the other sections and spacing is correct -->
+          <p>Many frogs are nocturnal. They use sticky tongues to catch insects and call loudly to
+          attract mates.</p>
+          <div id="fun-fact">
+            <p><strong>Fun Fact:</strong> Some frogs can leap more than 20 times their body length!</p> <!-- fixed strong tag so Fun Fact is bold and easy to see -->
+          </div>
+          <div> <!-- changed from a closing div to an opening div so the bottom section shows on the website -->
+          <div id="bottom-section">
+            <p>© 2025 Frogs of the Rainforest</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
